@@ -1,6 +1,6 @@
 packet_size = 64
 info_packet = False
-
+__version__ = 1.0
 def create_from_string(data):
 	global packet_size,info_packet
 	result = [""]
